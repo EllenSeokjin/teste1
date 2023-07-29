@@ -1,0 +1,44 @@
+body{
+    background-color: orange;
+}
+header{
+    height: 400px;
+    background-color: blueviolet;
+    margin-right: 400px;
+}
+
+header:hover
+{
+    background-color: black;
+    color: white;
+    transform: translate(400px);
+    transition: 2s;
+}
+
+.part2{
+    font-weight: 200px;
+    background-color: black;
+    height: 400px;
+}
+
+.text1{
+    color: white;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+     
+}
+
+.part2:hover
+{
+    background-color: blueviolet;
+    color: black;
+    transform: translate(400px);
+    transition: 2s;
+}
+
+footer{
+    display: flex;
+   justify-content: center;
+}
